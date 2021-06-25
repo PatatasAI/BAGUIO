@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<title>TARA SA BAGUIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("Baguio.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">TOURIST SPOT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Baguio City</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Baguio<br>City</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">The City of Pines</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT BAGUIO</span></h5>
+    <p>Baguio, to many, is best known as the "Summer Capital of the Philippines", with its cool climate making this a spot to escape the chaotic scenes in Manila. The city is also home to tropical pine forests, lending the city the nickname "City of Pines".</p>
+    <p>Baguio is considered a city separate from the province of Benguet, but it is considered part of Benguet practically, and it is the economic center for both the province and the Cordillera region. Some of the city's tourism promotions also point to nearby La Trinidad, which is both administratively and geographically in Benguet, and is the provincial capital.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>Strawberry Taho. As Baguio makes the most out of their most popular produce, Strawberry Taho is simply to die for. Among other delicacies, it is one of the most, if not the most, sought-after delicacy in the city. A hot Strawberry Taho is widely available along the streets of the city of pines.</i></p>
+      <p>Baguio City, City of Pines</p>
+    </div>
+    <img src="city of pines.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Baguio City:</strong> Open for tourism.</p>
+    <p><strong>Address:</strong>No. 104 Azcko Barangay, Baguio City Jail Building, Abanao Street, Baguio City</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">TOURIST SPOT</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Places</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">More</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Mines View Park</h5>
+      <p class="w3-text-grey">If you’re to ask what’s the most famous tourist attraction in Baguio, the answer is Mines View Park. In the early 20th century, Baguio was a mining town. Mines View Park sits on a ridge of the northeast side of Baguio where you can see a stunning view of the Cordillera Mountains and Benguet’s old copper and gold mines. While you’re there, you can also try on the Ifugaos’ traditional clothes and take a photo. </p><br>
+    
+      <h5>Burnham Park</h5>
+      <p class="w3-text-grey">Burnham Park is one of the most famous places in Baguio. The park offers an Intagrammable centuries-old artificial lake where you can ride a swan boat that you can operate on your own. Aside from boating, you can also jog and bike at Burnham Park. </p><br>
+    
+      <h5>Botanical Garden</h5>
+      <p class="w3-text-grey">Unlike other attractions, nothing much happens in this Baguio tourist destination. But that’s actually what people go there for aside, of course, from the beautiful ponds, different species of flowers, and towering pine trees that are totally perfect as backdrops for the ‘gram!</p><br>
+    
+      <h5>The Mansion</h5>
+      <p class="w3-text-grey">Make your Baguio City staycation extra by visiting the official summer residence of the President of the Philippines. You can have a photo of at The Mansion’s famous gate or go to the mini museum inside where art collections and memorabilia of former presidents can be seen.</p><br>
+    
+      <h5>Valley of Colors</h5>
+      <p class="w3-text-grey">Looking for an ultimate backdrop for the ‘gram? Head to Valley of Colors where you’ll see many colorful houses erected on the hill of Barangay Balili. This tourist attraction in Baguio has become so famous that when you see a photo of it on social media or elsewhere, you already know it’s in Baguio.</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Tree Top Adventure</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="w3-text-grey">If you’ve got a limited time to spend in Baguio, go to Camp John Hay, a one-stop-shop to enjoy all the best things in Baguio in one place. This Baguio City tourist spot features lots of shops for dining and shopping, and of course, for fun adventures like the Tree Top Adventure. It has jungle trails, suspension bridges, and a motorized canopy tour.</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+    
+      <h5>Strawberry Farms in La Trinidad</h5>
+      <p class="w3-text-grey">You know what other activity that will make your Baguio City trip more memorable? It’s picking fresh strawberries at La Trinidad, Benguet rather than just buying it at the market. This Baguio tourist destination never misses every first-time traveler’s itinerary. </p><br>
+    
+      <h5>BenCab Museum</h5>
+      <p class="w3-text-grey">When in Baguio, you’ll not just be amazed by the wonders of nature but also by the arts and culture in the city. Among the popular places that art-lovers usually visit is BenCab Museum, owned by the National Artist for Visual Arts, Benedicto Cabrera.
+
+        Aside from astounding artworks, this Baguio City tourist spot also houses a cafe, a memorabilia shop, and a garden where you can see typical indigenous Ifugao, Kalinga, and Bontoc architecture and farm produce.</p>
+    </div>  
+    <img src="tour.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>FIND US HERE, GOOGLE MO TOUR MO.</p>
+    <img src="city.png" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">BOOK NOW!</span> We offer full-service for all new tourist.</p>
+    <p><strong>Reserve</strong> You can now reserve a tour for us, just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="0.0.0"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
